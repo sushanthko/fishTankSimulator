@@ -1,0 +1,347 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3582841968213760636
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3582841968213760635}
+  - component: {fileID: 3582841968213760634}
+  - component: {fileID: 3582841968213760637}
+  m_Layer: 0
+  m_Name: RIG Single Server 12x
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3582841968213760635
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3582841968213760636}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0.34, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3720139982131192257}
+  - {fileID: 3582841969102346243}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &3582841968213760634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3582841968213760636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &3582841968213760637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3582841968213760636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61224126889e1ea479b0daa9f7a157e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  head: {fileID: 3582841969102346245}
+  launchScript: "# Windows Powershell Launch Script\n# Script Generated On Friday,
+    November 15, 2019, 12:35:34 PM\n# Setup contains 13 displays and 1 display managers\n\n#
+    Display: 1\nIf ($env:ComputerName -eq 'WIN-B7CHVGFU0S0') {\n\t& 'UniCave.exe'
+    -screen-fullscreen 0 -popupwindow \n}\n\n# Display: 2\nIf ($env:ComputerName -eq
+    'WIN-B7CHVGFU0S0-A') {\n\t& 'UniCave.exe' -screen-fullscreen 0 -popupwindow \n}\n\n#
+    Display: 3\nIf ($env:ComputerName -eq 'WIN-B7CHVGFU0S0-B') {\n\t& 'UniCave.exe'
+    -screen-fullscreen 0 -popupwindow \n}\n\n# Display: 4\nIf ($env:ComputerName -eq
+    'WIN-B7CHVGFU0S0-C') {\n\t& 'UniCave.exe' -screen-fullscreen 0 -popupwindow \n}\n\n#
+    Display: 5\nIf ($env:ComputerName -eq 'WIN-B7CHVGFU0S0-D') {\n\t& 'UniCave.exe'
+    -screen-fullscreen 0 -popupwindow \n}\n\n# Display: 6\nIf ($env:ComputerName -eq
+    'WIN-B7CHVGFU0S0-E') {\n\t& 'UniCave.exe' -screen-fullscreen 0 -popupwindow \n}\n\n#
+    Display: 7\nIf ($env:ComputerName -eq 'WIN-B7CHVGFU0S0-F') {\n\t& 'UniCave.exe'
+    -screen-fullscreen 0 -popupwindow \n}\n\n# Display: 8\nIf ($env:ComputerName -eq
+    'WIN-B7CHVGFU0S0-G') {\n\t& 'UniCave.exe' -screen-fullscreen 0 -popupwindow \n}\n\n#
+    Display: 9\nIf ($env:ComputerName -eq 'WIN-B7CHVGFU0S0-H') {\n\t& 'UniCave.exe'
+    -screen-fullscreen 0 -popupwindow \n}\n\n# Display: 10\nIf ($env:ComputerName
+    -eq 'WIN-B7CHVGFU0S0-I') {\n\t& 'UniCave.exe' -screen-fullscreen 0 -popupwindow
+    \n}\n\n# Display: 11\nIf ($env:ComputerName -eq 'WIN-B7CHVGFU0S0-J') {\n\t& 'UniCave.exe'
+    -screen-fullscreen 0 -popupwindow \n}\n\n# Display: 12\nIf ($env:ComputerName
+    -eq 'WIN-B7CHVGFU0S0-K') {\n\t& 'UniCave.exe' -screen-fullscreen 0 -popupwindow
+    \n}\n\n# Display Group: HVL INST01\nIf ($env:ComputerName -eq 'HVL-INST01') {\n\t&
+    'UniCave.exe' -screen-fullscreen 0 -popupwindow \n}"
+  settingsToLoad: RunConfig.txt
+--- !u!1 &3582841969102346244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3582841969102346243}
+  - component: {fileID: 3582841969102346245}
+  m_Layer: 0
+  m_Name: Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3582841969102346243
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3582841969102346244}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.42, y: 1.843, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3582841968213760635}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3582841969102346245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3582841969102346244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bbb13f3601696f429cf6980abfdb409, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftEyeOffset: {x: 0, y: 0, z: 0}
+  rightEyeOffset: {x: 0, y: 0, z: 0}
+  nearClippingPlane: 0.01
+  farClippingPlane: 100
+--- !u!1001 &894777254725220663
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3582841968213760635}
+    m_Modifications:
+    - target: {fileID: 4596614697424689385, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: m_Name
+      value: Single Server 12x
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596614697424689398, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596614697424689398, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596614697424689398, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596614697424689398, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596614697424689398, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596614697424689398, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596614697424689398, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596614697424689398, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596614697424689398, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596614697424689398, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596614697424689398, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 814890496769597312, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: machineName
+      value: WIN-B7CHVGFU0S0-B
+      objectReference: {fileID: 0}
+    - target: {fileID: 814890496769597312, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: head
+      value: 
+      objectReference: {fileID: 3582841969102346245}
+    - target: {fileID: 2301686109085334009, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: machineName
+      value: WIN-B7CHVGFU0S0-E
+      objectReference: {fileID: 0}
+    - target: {fileID: 2301686109085334009, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: head
+      value: 
+      objectReference: {fileID: 3582841969102346245}
+    - target: {fileID: 2901802547935900885, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: machineName
+      value: WIN-B7CHVGFU0S0-D
+      objectReference: {fileID: 0}
+    - target: {fileID: 2901802547935900885, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: head
+      value: 
+      objectReference: {fileID: 3582841969102346245}
+    - target: {fileID: 2991724580505445691, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: machineName
+      value: WIN-B7CHVGFU0S0-H
+      objectReference: {fileID: 0}
+    - target: {fileID: 2991724580505445691, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: head
+      value: 
+      objectReference: {fileID: 3582841969102346245}
+    - target: {fileID: 4187657702336155442, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: machineName
+      value: WIN-B7CHVGFU0S0-G
+      objectReference: {fileID: 0}
+    - target: {fileID: 4187657702336155442, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: head
+      value: 
+      objectReference: {fileID: 3582841969102346245}
+    - target: {fileID: 3776859704988220668, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: machineName
+      value: WIN-B7CHVGFU0S0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3776859704988220668, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: head
+      value: 
+      objectReference: {fileID: 3582841969102346245}
+    - target: {fileID: 5563727874132496187, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: machineName
+      value: WIN-B7CHVGFU0S0-A
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563727874132496187, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: head
+      value: 
+      objectReference: {fileID: 3582841969102346245}
+    - target: {fileID: 5378602952368930777, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: machineName
+      value: WIN-B7CHVGFU0S0-I
+      objectReference: {fileID: 0}
+    - target: {fileID: 5378602952368930777, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: head
+      value: 
+      objectReference: {fileID: 3582841969102346245}
+    - target: {fileID: 7934486148372249760, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: machineName
+      value: WIN-B7CHVGFU0S0-C
+      objectReference: {fileID: 0}
+    - target: {fileID: 7934486148372249760, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: head
+      value: 
+      objectReference: {fileID: 3582841969102346245}
+    - target: {fileID: 7261252060516784788, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: machineName
+      value: WIN-B7CHVGFU0S0-F
+      objectReference: {fileID: 0}
+    - target: {fileID: 7261252060516784788, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: head
+      value: 
+      objectReference: {fileID: 3582841969102346245}
+    - target: {fileID: 7078400839673148667, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: machineName
+      value: WIN-B7CHVGFU0S0-J
+      objectReference: {fileID: 0}
+    - target: {fileID: 7078400839673148667, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: head
+      value: 
+      objectReference: {fileID: 3582841969102346245}
+    - target: {fileID: 8961674440360800612, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: machineName
+      value: WIN-B7CHVGFU0S0-K
+      objectReference: {fileID: 0}
+    - target: {fileID: 8961674440360800612, guid: f2ea84c066a14354782f32111afe20f4,
+        type: 3}
+      propertyPath: head
+      value: 
+      objectReference: {fileID: 3582841969102346245}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f2ea84c066a14354782f32111afe20f4, type: 3}
+--- !u!4 &3720139982131192257 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4596614697424689398, guid: f2ea84c066a14354782f32111afe20f4,
+    type: 3}
+  m_PrefabInstance: {fileID: 894777254725220663}
+  m_PrefabAsset: {fileID: 0}
